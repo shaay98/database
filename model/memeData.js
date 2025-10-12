@@ -1,0 +1,17 @@
+export const meme = [
+    {id : 60,
+        title: "Something Random",
+        URL: "https://march25-cohort-meme-bucket.s3.us-east-1.amazonaws.com/dev+memes/something-random-blog-github-my-code-stackoverflow.png"},
+    {id : 30,
+        title: "Something Random",
+        URL: "https://march25-cohort"},
+    {id : 70,
+        title: "Something Random",
+        URL: "https://march25-cohort-meme-bucket.s3.us-east-1.amazonaws.com/dev+memes/-github-my-code-stackoverflow.png"},
+    {id : 40,
+        title: "Something Random",
+        URL: "https://march25-cohort-meme-bucket.s3.us-east-1.amazonaws.com/dev+memes/something-random-blog-github-my-code-stackoverflow.png"},
+    {id : 10,
+        title: "Something Random",
+        URL: "https://march25-cohort-meme-bucket.s3.us-east-1.amazonaws.com/dev+memes/something-random-blog-github-my-code-stackoverflow.png"},
+];
