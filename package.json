@@ -1,5 +1,25 @@
 {
+  "name": "meme-gallery-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "NODE_ENV=test jest --runInBand"
+  },
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "@prisma/client": "^5.22.0",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4",
+    "prisma": "^5.22.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
   }
 }
